@@ -6,3 +6,9 @@
 # To learn more, see https://pip.pypa.io/en/stable/reference/requirements-file-format/
 
 runpod==1.6.2
+accelerate==0.23.0 
+diffusers==0.25.1 
+transformers==4.37.2 
+opencv-python==4.9.0.80 
+opencv-python-headless==4.9.0.80 
+torch
