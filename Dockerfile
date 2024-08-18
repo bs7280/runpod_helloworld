@@ -2,6 +2,7 @@
 # DockerHub -> https://hub.docker.com/r/runpod/base/tags
 FROM runpod/base:0.4.0-cuda11.8.0
 
+LABEL org.opencontainers.image.source=https://github.com/bs7280/runpod_helloworld
 # The base image comes with many system dependencies pre-installed to help you get started quickly.
 # Please refer to the base image's Dockerfile for more information before adding additional dependencies.
 # IMPORTANT: The base image overrides the default huggingface cache location.
